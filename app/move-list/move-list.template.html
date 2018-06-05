@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+		<p>
+			Search:
+			<input type="text" ng-model="$ctrl.query" placeholder="Enter a Pokemon's #"/>
+			<button ng-click="$ctrl.fetch()">
+				Go
+			</button><br/>
+			<span ng-if="$ctrl.outofbounds == true" class="error">Please enter a number from {{$ctrl.minpkmn}} to {{$ctrl.maxpkmn}}.</span>
+		</p>	
+		<p>
+			<input type="checkbox" ng-model="$ctrl.lostonly">Show only "lost" moves</input>
+		</p>
+		<!--p>
+			Sort by:
+			<select ng-model="$ctrl.orderProp">
+				<option value="name">Name</option>
+				<option value="id">Number</option>
+			</select>
+		</p-->
+    </div>
+    <div class="col-md-10">
+		<!--Body content-->
+			<h2>#{{$ctrl.pkmn.id}}: <a href="{{$ctrl.bulbapediaLookupUrl}}{{$ctrl.pkmn.name}}{{$ctrl.bulbaPokemonSuffix}} | hyphenless | titlecase">{{$ctrl.pkmn.name}}</a></h2>
+			<!--p>
+				<img ng-src="{{$ctrl.pkmn.sprites.front_default}}">
+			</p-->
+			<table class="move-list">
+				<tr>
+					<th>Move</th>
+					<!--The group filter for Ultra-Sun-Ultra-Moon and the +1 on the versionlimit will be removed once USUM data is added to PokeAPI.
+							This is a temporary workaround to prevent an empty/useless column for USUM from displaying.-->
+					<th ng-repeat="version in $ctrl.versions | filter:{group: '!ultra-sun-ultra-moon'} | limitTo:$ctrl.versionlimit+1">{{version.group}}</th>
+				</tr>
+				<tr ng-repeat="move in $ctrl.pkmn.moves">
+					<td><a href="{{$ctrl.bulbapediaSearchUrl}}{{move.move.name}}">{{move.move.name}}</a></td>
+					<!--The group filter for Ultra-Sun-Ultra-Moon and the +1 on the versionlimit will be removed once USUM data is added to PokeAPI
+							This is a temporary workaround to prevent an empty/useless column for USUM from displaying.-->
+					<td ng-repeat="version in $ctrl.versions | filter:{group: '!ultra-sun-ultra-moon'} | limitTo:$ctrl.versionlimit+1">
+						<span ng-repeat="version_group_details in move">
+							<span ng-repeat="group in version_group_details">
+								<ul class="methods">
+									<li ng-if="group.version_group.name == version.group">{{group.move_learn_method.name}}</li>
+								</ul>
+							</span>
+						</span>
+					</td>
+				</tr>
+			</table>		
+    </div>
+  </div>
+</div>

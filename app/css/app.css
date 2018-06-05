@@ -1,0 +1,40 @@
+/* app css stylesheet */
+
+body {
+  padding-top: 20px;
+}
+
+th {
+  text-transform: capitalize;
+  padding: 1px;
+  border: 1px solid black;
+  text-align: center;
+}
+tr {
+  padding: 1px;
+  border: 1px solid black;
+}
+td {
+  text-transform: capitalize;
+  padding: 3px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+}
+
+ul.methods {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.error {
+  color: red;
+}
+
+h2 {
+  text-transform: capitalize;
+}

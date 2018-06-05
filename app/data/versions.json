@@ -1,0 +1,92 @@
+[
+	{
+		"group" : "red-blue",
+		"generation" : 1,
+		"versions" : ["red','blue"]
+	},
+	{
+		"group" : "yellow",
+		"generation" : 1,
+		"versions" : ["yellow"]
+	},
+	{
+		"group" : "gold-silver",
+		"generation" : 2,
+		"versions" : ["gold","silver"]
+	},
+	{
+		"group" : "crystal",
+		"generation" : 2,
+		"versions" : ["crystal"]
+	},
+	{
+		"group" : "ruby-sapphire",
+		"generation" : 3,
+		"versions" : ["ruby","sapphire"]
+	},
+	{
+		"group" : "emerald",
+		"generation" : 3,
+		"versions" : ["emerald"]
+	},
+	{
+		"group" : "firered-leafgreen",
+		"generation" : 3,
+		"versions" : ["firered","leafgreen"]	
+	},
+	{
+		"group" : "xd",
+		"generation" : 3,
+		"versions" : ["xd"]
+	},
+	{
+		"group" : "colosseum",
+		"generation" : 3,
+		"versions" : ["colosseum"]
+	},
+	{
+		"group" : "diamond-pearl",
+		"generation" : 4,
+		"versions" : ["diamond","pearl"]	
+	},
+	{
+		"group" : "platinum",
+		"generation" : 4,
+		"versions" : ["platinum"]
+	},
+	{
+		"group" : "heartgold-soulsilver",
+		"generation" : 4,
+		"versions" : ["heartgold","soulsilver"]
+	},
+	{
+		"group" : "black-white",
+		"generation" : 5,
+		"versions" : ["black","white"]
+	},
+	{
+		"group" : "black-2-white-2",
+		"generation" : 5,
+		"versions" : ["black-2","white-2"]
+	},
+	{
+		"group" : "x-y",
+		"generation" : 6,
+		"versions" : ["x","y"]
+	},
+	{
+		"group" : "omega-ruby-alpha-sapphire",
+		"generation" : 6,
+		"versions" : ["omega-ruby","alpha-sapphire"]
+	},
+	{
+		"group" : "sun-moon",
+		"generation" : 7,
+		"versions" : ["sun","moon"]
+	},
+	{
+		"group" : "ultra-sun-ultra-moon",
+		"generation" : 7,
+		"versions" : ["ultra-sun","ultra-moon"]
+	}
+]
