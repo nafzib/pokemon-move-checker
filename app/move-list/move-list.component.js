@@ -6,7 +6,8 @@ angular.
 		/*might need to add pokedex-promise-v2 dependency as an argument in the controller's constructor function like so:
 			controller: function MoveListController($http,$pokedex-promise-v2) {
 		*/
-		controller: function MoveListController($http) {
+		controller: function MoveListController($http,$cacheFactory) {
+			var pokedex = $cacheFactory('pokemonCache');
 			var self = this;
 			self.orderProp = 'number';
 			//TODO pull min and max pokemon ID #s from API/Pokedex dynamically
@@ -63,7 +64,7 @@ angular.
 				self.outofbounds = false;
 				if(self.query>=self.minpkmn && self.query<=self.maxpkmn) {
 					console.log('Searching for ' + self.query);
-					$http.get('https://pokeapi.co/api/v2/pokemon/' + self.query).then(function(response){
+					$http.get('https://pokeapi.co/api/v2/pokemon/' + self.query, { cache : pokedex }).then(function(response){
 						self.pkmn = response.data;
 						console.log('Successfully loaded data for ' + self.pkmn.id);
 						setVersionLimit(self.pkmn.id); 

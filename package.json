@@ -1,0 +1,23 @@
+{
+  "name": "pokemon-move-checker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafzib/pokemon-move-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nafzib/pokemon-move-checker/issues"
+  },
+  "homepage": "https://github.com/nafzib/pokemon-move-checker#readme"
+}
