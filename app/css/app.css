@@ -1,10 +1,93 @@
 /* app css stylesheet */
+@font-face {
+  font-family: 'Pokemon';
+  /* Font downloaded from: http://www.fontspace.com/jackster-productions/pokemon-gb */
+  src: url('../fonts/Pokemon GB.ttf')  format('truetype');
+  font-weight: bold;
+}
+
+.move { 
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+.move a { 
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+/* Pokemon Background Colors by Type Used On Bulbapedia */
+.normal-type { background: #A8A878; }
+.fire-type { background: #F08030; }
+.fighting-type { background: #C03028; }
+.water-type { background: #6890F0; }
+.flying-type { background: #A890F0; }
+.grass-type { background: #78C850; }
+.poison-type { background: #A040A0; }
+.electric-type { background: #F8D030; }
+.ground-type { background: #E0C068; }
+.psychic-type { background: #F85888; }
+.rock-type { background: #B8A038; }
+.ice-type { background: #98D8D8; }
+.bug-type { background: #A8B820; }
+.dragon-type { background: #7038F8; }
+.ghost-type { background: #705898; }
+.dark-type { background: #705848; }
+.steel-type { background: #B8B8D0; }
+.fairy-type { background: #EE99AC; }
+.unknown-type { background: #68A090; }
 
 body {
+  font-family: Arial;
+  /* font-family: 'Pokemon'; */
+  font-size: 14px;
+  /* Generation 1 Pokedex Red: */
+  /* background-color:#EB2224; */
   padding-top: 20px;
 }
 
+/* .main {
+  position: relative;
+  margin-left: auto;
+  width: auto;
+} */
+
+.sidebar {
+  text-align: center;
+  z-index: 900;
+  font-family: Arial;
+  font-size: 14px;
+  float: left;
+  width: 15%;
+}
+
+.sidebar a {
+  z-index: 900;
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.sidebar button {
+  z-index: 900;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.sidebar input {
+  z-index: 900;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.pokemon-info img {
+  width: 100%;
+  height: auto;
+}
+
 th {
+  background: white;
+  color: black;
   text-transform: capitalize;
   padding: 1px;
   border: 1px solid black;
@@ -21,7 +104,12 @@ td {
   text-align: center;
 }
 
+ul.methods:empty {
+  background: grey;
+}
+
 table {
+  background: white;
   border: 1px solid black;
 }
 

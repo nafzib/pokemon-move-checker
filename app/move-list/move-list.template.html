@@ -1,43 +1,51 @@
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-2">
-      <!--Sidebar content-->
-		<p>
-			Search:
-			<input type="text" ng-model="$ctrl.query" placeholder="Enter a Pokemon's #"/>
-			<button ng-click="$ctrl.fetch()">
-				Go
-			</button><br/>
-			<span ng-if="$ctrl.outofbounds == true" class="error">Please enter a number from {{$ctrl.minpkmn}} to {{$ctrl.maxpkmn}}.</span>
-		</p>	
-		<p>
-			<input type="checkbox" ng-model="$ctrl.lostonly">Show only "lost" moves</input>
-		</p>
-		<!--p>
-			Sort by:
-			<select ng-model="$ctrl.orderProp">
-				<option value="name">Name</option>
-				<option value="id">Number</option>
-			</select>
-		</p-->
-    </div>
-    <div class="col-md-10">
-		<!--Body content-->
-			<h2>#{{$ctrl.pkmn.id}}: <a href="{{$ctrl.bulbapediaLookupUrl}}{{$ctrl.pkmn.name}}{{$ctrl.bulbaPokemonSuffix}} | hyphenless | titlecase">{{$ctrl.pkmn.name}}</a></h2>
+<div class="body">
+	<div class="sidebar">
+		<div class="search">
+			<p>
+				Search:
+				<input type="text" ng-model="$ctrl.searchPokemon" placeholder="Enter a Pokemon's #"/>
+				<button ng-click="$ctrl.fetch()">
+					Go
+				</button><br/>
+				<span ng-if="$ctrl.outOfBounds == true" class="error">Please enter a number from {{$ctrl.minpkmn}} to {{$ctrl.maxpkmn}}.</span>
+			</p>	
+			<p>
+				<input type="checkbox" ng-model="lostOnly">Show only "lost" moves</input>
+			</p>
 			<!--p>
-				<img ng-src="{{$ctrl.pkmn.sprites.front_default}}">
+				Sort by:
+				<select ng-model="$ctrl.orderProp">
+					<option value="name">Name</option>
+					<option value="id">Number</option>
+				</select>
 			</p-->
-			<table class="move-list">
-				<tr>
-					<th>Move</th>
-					<!--The group filter for Ultra-Sun-Ultra-Moon and the +1 on the versionlimit will be removed once USUM data is added to PokeAPI.
-							This is a temporary workaround to prevent an empty/useless column for USUM from displaying.-->
-					<th ng-repeat="version in $ctrl.versions | filter:{group: '!ultra-sun-ultra-moon'} | limitTo:$ctrl.versionlimit+1">{{version.group}}</th>
-				</tr>
-				<tr ng-repeat="move in $ctrl.pkmn.moves">
+		</div>
+		<!--Body content-->
+		<div ng-if="$ctrl.pkmn" class="pokemon-info">
+			<!-- The class binding for the h2 below picks only the first of a pokemon's types even if it has 2; this was WAY easier than checking if it's single or dual-type and then making a decision afterwards -->
+			<h2 class="{{$ctrl.pkmn.types[0].type.name}}-type"><a href="{{$ctrl.bulbapediaLookupUrl}}{{$ctrl.pkmn.name}}{{$ctrl.bulbaPokemonSuffix}}">#{{$ctrl.pkmn.id}} - {{$ctrl.pkmn.name}}</a></h2>
+		<img ng-src="{{$ctrl.pkmn.sprites.front_default}}" />
+	</div>
+</div>
+<div ng-if="$ctrl.pkmn" class="main">
+	<table class="move-list">
+		<thead>
+			<tr>
+				<th>Move</th>
+				<!--The group filter for Ultra-Sun-Ultra-Moon and the +1 on the versionlimit will be removed once USUM data is added to PokeAPI.
+					This is a temporary workaround to prevent an empty/useless column for USUM from displaying.
+					Once you remove the filter here, you need to do it below in the move cell in the table as well.-->
+				<th ng-repeat="version in $ctrl.versions | filter:{group: '!ultra-sun-ultra-moon'} | limitTo:$ctrl.versionlimit+1">{{version.group}}</th>
+			</tr>
+		</thead>
+		<tbody>
+			<!--Finally got the below class typing to work with a static json file structured as: {"movename":{"type":"typename"}}-->
+			<!--Will have to change it once I can get full server side caching of PokeAPI going because the API move data comes back like: {"type":{"name":"typename"}}-->
+			<!-- <tr ng-repeat="move in $ctrl.pkmn.moves" name="{{move.move.name}}" class="{{$ctrl.moves[x][move.move.name].Type}}-type"> -->
+				<tr ng-repeat="move in $ctrl.pkmn.moves" class="move {{$ctrl.getMoveType(move.move.name)}}-type" ng-if="((lostOnly) && ($ctrl.lostMoves.includes(move.move.name))) || (!lostOnly)">
 					<td><a href="{{$ctrl.bulbapediaSearchUrl}}{{move.move.name}}">{{move.move.name}}</a></td>
 					<!--The group filter for Ultra-Sun-Ultra-Moon and the +1 on the versionlimit will be removed once USUM data is added to PokeAPI
-							This is a temporary workaround to prevent an empty/useless column for USUM from displaying.-->
+						This is a temporary workaround to prevent an empty/useless column for USUM from displaying.-->
 					<td ng-repeat="version in $ctrl.versions | filter:{group: '!ultra-sun-ultra-moon'} | limitTo:$ctrl.versionlimit+1">
 						<span ng-repeat="version_group_details in move">
 							<span ng-repeat="group in version_group_details">
@@ -48,7 +56,7 @@
 						</span>
 					</td>
 				</tr>
-			</table>		
-    </div>
-  </div>
+			</tbody>
+		</table>
+	</div>
 </div>

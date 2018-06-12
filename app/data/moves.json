@@ -1,0 +1,2133 @@
+{
+    "10,000,000-volt-thunderbolt" : {
+      "type" : "000"
+    },
+    "absorb" : {
+      "type" : "grass"
+    },
+    "accelerock" : {
+      "type" : "rock"
+    },
+    "acid" : {
+      "type" : "poison"
+    },
+    "acid-armor" : {
+      "type" : "poison"
+    },
+    "acid-downpour" : {
+      "type" : "poison"
+    },
+    "acid-spray" : {
+      "type" : "poison"
+    },
+    "acrobatics" : {
+      "type" : "flying"
+    },
+    "acupressure" : {
+      "type" : "normal"
+    },
+    "aerial-ace" : {
+      "type" : "flying"
+    },
+    "aeroblast" : {
+      "type" : "flying"
+    },
+    "after-you" : {
+      "type" : "normal"
+    },
+    "agility" : {
+      "type" : "psychic"
+    },
+    "air-cutter" : {
+      "type" : "flying"
+    },
+    "air-slash" : {
+      "type" : "flying"
+    },
+    "all-out-pummeling" : {
+      "type" : "fighting"
+    },
+    "ally-switch" : {
+      "type" : "psychic"
+    },
+    "amnesia" : {
+      "type" : "psychic"
+    },
+    "anchor-shot" : {
+      "type" : "steel"
+    },
+    "ancient-power" : {
+      "type" : "rock"
+    },
+    "aqua-jet" : {
+      "type" : "water"
+    },
+    "aqua-ring" : {
+      "type" : "water"
+    },
+    "aqua-tail" : {
+      "type" : "water"
+    },
+    "arm-thrust" : {
+      "type" : "fighting"
+    },
+    "aromatherapy" : {
+      "type" : "grass"
+    },
+    "aromatic-mist" : {
+      "type" : "fairy"
+    },
+    "assist" : {
+      "type" : "normal"
+    },
+    "assurance" : {
+      "type" : "dark"
+    },
+    "astonish" : {
+      "type" : "ghost"
+    },
+    "attack-order" : {
+      "type" : "bug"
+    },
+    "attract" : {
+      "type" : "normal"
+    },
+    "aura-sphere" : {
+      "type" : "fighting"
+    },
+    "aurora-beam" : {
+      "type" : "ice"
+    },
+    "aurora-veil" : {
+      "type" : "ice"
+    },
+    "autotomize" : {
+      "type" : "steel"
+    },
+    "avalanche" : {
+      "type" : "ice"
+    },
+    "baby-doll-eyes" : {
+      "type" : "fairy"
+    },
+    "baneful-bunker" : {
+      "type" : "poison"
+    },
+    "barrage" : {
+      "type" : "normal"
+    },
+    "barrier" : {
+      "type" : "psychic"
+    },
+    "baton-pass" : {
+      "type" : "normal"
+    },
+    "beak-blast" : {
+      "type" : "flying"
+    },
+    "beat-up" : {
+      "type" : "dark"
+    },
+    "belch" : {
+      "type" : "poison"
+    },
+    "belly-drum" : {
+      "type" : "normal"
+    },
+    "bestow" : {
+      "type" : "normal"
+    },
+    "bide" : {
+      "type" : "normal"
+    },
+    "bind" : {
+      "type" : "normal"
+    },
+    "bite" : {
+      "type" : "dark"
+    },
+    "black-hole-eclipse" : {
+      "type" : "dark"
+    },
+    "blast-burn" : {
+      "type" : "fire"
+    },
+    "blaze-kick" : {
+      "type" : "fire"
+    },
+    "blizzard" : {
+      "type" : "ice"
+    },
+    "block" : {
+      "type" : "normal"
+    },
+    "bloom-doom" : {
+      "type" : "grass"
+    },
+    "blue-flare" : {
+      "type" : "fire"
+    },
+    "body-slam" : {
+      "type" : "normal"
+    },
+    "bolt-strike" : {
+      "type" : "electric"
+    },
+    "bone-club" : {
+      "type" : "ground"
+    },
+    "bone-rush" : {
+      "type" : "ground"
+    },
+    "bonemerang" : {
+      "type" : "ground"
+    },
+    "boomburst" : {
+      "type" : "normal"
+    },
+    "bounce" : {
+      "type" : "flying"
+    },
+    "brave-bird" : {
+      "type" : "flying"
+    },
+    "breakneck-blitz" : {
+      "type" : "normal"
+    },
+    "brick-break" : {
+      "type" : "fighting"
+    },
+    "brine" : {
+      "type" : "water"
+    },
+    "brutal-swing" : {
+      "type" : "dark"
+    },
+    "bubble" : {
+      "type" : "water"
+    },
+    "bubble-beam" : {
+      "type" : "water"
+    },
+    "bug-bite" : {
+      "type" : "bug"
+    },
+    "bug-buzz" : {
+      "type" : "bug"
+    },
+    "bulk-up" : {
+      "type" : "fighting"
+    },
+    "bulldoze" : {
+      "type" : "ground"
+    },
+    "bullet-punch" : {
+      "type" : "steel"
+    },
+    "bullet-seed" : {
+      "type" : "grass"
+    },
+    "burn-up" : {
+      "type" : "fire"
+    },
+    "calm-mind" : {
+      "type" : "psychic"
+    },
+    "camouflage" : {
+      "type" : "normal"
+    },
+    "captivate" : {
+      "type" : "normal"
+    },
+    "catastropika" : {
+      "type" : "electric"
+    },
+    "celebrate" : {
+      "type" : "normal"
+    },
+    "charge" : {
+      "type" : "electric"
+    },
+    "charge-beam" : {
+      "type" : "electric"
+    },
+    "charm" : {
+      "type" : "fairy"
+    },
+    "chatter" : {
+      "type" : "flying"
+    },
+    "chip-away" : {
+      "type" : "normal"
+    },
+    "circle-throw" : {
+      "type" : "fighting"
+    },
+    "clamp" : {
+      "type" : "water"
+    },
+    "clanging-scales" : {
+      "type" : "dragon"
+    },
+    "clangorous-soulblaze" : {
+      "type" : "dragon"
+    },
+    "clear-smog" : {
+      "type" : "poison"
+    },
+    "close-combat" : {
+      "type" : "fighting"
+    },
+    "coil" : {
+      "type" : "poison"
+    },
+    "comet-punch" : {
+      "type" : "normal"
+    },
+    "confide" : {
+      "type" : "normal"
+    },
+    "confuse-ray" : {
+      "type" : "ghost"
+    },
+    "confusion" : {
+      "type" : "psychic"
+    },
+    "constrict" : {
+      "type" : "normal"
+    },
+    "continental-crush" : {
+      "type" : "rock"
+    },
+    "conversion" : {
+      "type" : "normal"
+    },
+    "conversion-2" : {
+      "type" : "normal"
+    },
+    "copycat" : {
+      "type" : "normal"
+    },
+    "core-enforcer" : {
+      "type" : "dragon"
+    },
+    "corkscrew-crash" : {
+      "type" : "steel"
+    },
+    "cosmic-power" : {
+      "type" : "psychic"
+    },
+    "cotton-guard" : {
+      "type" : "grass"
+    },
+    "cotton-spore" : {
+      "type" : "grass"
+    },
+    "counter" : {
+      "type" : "fighting"
+    },
+    "covet" : {
+      "type" : "normal"
+    },
+    "crabhammer" : {
+      "type" : "water"
+    },
+    "crafty-shield" : {
+      "type" : "fairy"
+    },
+    "cross-chop" : {
+      "type" : "fighting"
+    },
+    "cross-poison" : {
+      "type" : "poison"
+    },
+    "crunch" : {
+      "type" : "dark"
+    },
+    "crush-claw" : {
+      "type" : "normal"
+    },
+    "crush-grip" : {
+      "type" : "normal"
+    },
+    "curse" : {
+      "type" : "ghost"
+    },
+    "cut" : {
+      "type" : "normal"
+    },
+    "dark-pulse" : {
+      "type" : "dark"
+    },
+    "dark-void" : {
+      "type" : "dark"
+    },
+    "darkest-lariat" : {
+      "type" : "dark"
+    },
+    "dazzling-gleam" : {
+      "type" : "fairy"
+    },
+    "defend-order" : {
+      "type" : "bug"
+    },
+    "defense-curl" : {
+      "type" : "normal"
+    },
+    "defog" : {
+      "type" : "flying"
+    },
+    "destiny-bond" : {
+      "type" : "ghost"
+    },
+    "detect" : {
+      "type" : "fighting"
+    },
+    "devastating-drake" : {
+      "type" : "dragon"
+    },
+    "diamond-storm" : {
+      "type" : "rock"
+    },
+    "dig" : {
+      "type" : "ground"
+    },
+    "disable" : {
+      "type" : "normal"
+    },
+    "disarming-voice" : {
+      "type" : "fairy"
+    },
+    "discharge" : {
+      "type" : "electric"
+    },
+    "dive" : {
+      "type" : "water"
+    },
+    "dizzy-punch" : {
+      "type" : "normal"
+    },
+    "doom-desire" : {
+      "type" : "steel"
+    },
+    "double-edge" : {
+      "type" : "normal"
+    },
+    "double-hit" : {
+      "type" : "normal"
+    },
+    "double-kick" : {
+      "type" : "fighting"
+    },
+    "double-slap" : {
+      "type" : "normal"
+    },
+    "double-team" : {
+      "type" : "normal"
+    },
+    "draco-meteor" : {
+      "type" : "dragon"
+    },
+    "dragon-ascent" : {
+      "type" : "flying"
+    },
+    "dragon-breath" : {
+      "type" : "dragon"
+    },
+    "dragon-claw" : {
+      "type" : "dragon"
+    },
+    "dragon-dance" : {
+      "type" : "dragon"
+    },
+    "dragon-hammer" : {
+      "type" : "dragon"
+    },
+    "dragon-pulse" : {
+      "type" : "dragon"
+    },
+    "dragon-rage" : {
+      "type" : "dragon"
+    },
+    "dragon-rush" : {
+      "type" : "dragon"
+    },
+    "dragon-tail" : {
+      "type" : "dragon"
+    },
+    "drain-punch" : {
+      "type" : "fighting"
+    },
+    "draining-kiss" : {
+      "type" : "fairy"
+    },
+    "dream-eater" : {
+      "type" : "psychic"
+    },
+    "drill-peck" : {
+      "type" : "flying"
+    },
+    "drill-run" : {
+      "type" : "ground"
+    },
+    "dual-chop" : {
+      "type" : "dragon"
+    },
+    "dynamic-punch" : {
+      "type" : "fighting"
+    },
+    "earth-power" : {
+      "type" : "ground"
+    },
+    "earthquake" : {
+      "type" : "ground"
+    },
+    "echoed-voice" : {
+      "type" : "normal"
+    },
+    "eerie-impulse" : {
+      "type" : "electric"
+    },
+    "egg-bomb" : {
+      "type" : "normal"
+    },
+    "electric-terrain" : {
+      "type" : "electric"
+    },
+    "electrify" : {
+      "type" : "electric"
+    },
+    "electro-ball" : {
+      "type" : "electric"
+    },
+    "electroweb" : {
+      "type" : "electric"
+    },
+    "embargo" : {
+      "type" : "dark"
+    },
+    "ember" : {
+      "type" : "fire"
+    },
+    "encore" : {
+      "type" : "normal"
+    },
+    "endeavor" : {
+      "type" : "normal"
+    },
+    "endure" : {
+      "type" : "normal"
+    },
+    "energy-ball" : {
+      "type" : "grass"
+    },
+    "entrainment" : {
+      "type" : "normal"
+    },
+    "eruption" : {
+      "type" : "fire"
+    },
+    "explosion" : {
+      "type" : "normal"
+    },
+    "extrasensory" : {
+      "type" : "psychic"
+    },
+    "extreme-evoboost" : {
+      "type" : "normal"
+    },
+    "extreme-speed" : {
+      "type" : "normal"
+    },
+    "facade" : {
+      "type" : "normal"
+    },
+    "fairy-lock" : {
+      "type" : "fairy"
+    },
+    "fairy-wind" : {
+      "type" : "fairy"
+    },
+    "fake-out" : {
+      "type" : "normal"
+    },
+    "fake-tears" : {
+      "type" : "dark"
+    },
+    "false-swipe" : {
+      "type" : "normal"
+    },
+    "feather-dance" : {
+      "type" : "flying"
+    },
+    "feint" : {
+      "type" : "normal"
+    },
+    "feint-attack" : {
+      "type" : "dark"
+    },
+    "fell-stinger" : {
+      "type" : "bug"
+    },
+    "fiery-dance" : {
+      "type" : "fire"
+    },
+    "final-gambit" : {
+      "type" : "fighting"
+    },
+    "fire-blast" : {
+      "type" : "fire"
+    },
+    "fire-fang" : {
+      "type" : "fire"
+    },
+    "fire-lash" : {
+      "type" : "fire"
+    },
+    "fire-pledge" : {
+      "type" : "fire"
+    },
+    "fire-punch" : {
+      "type" : "fire"
+    },
+    "fire-spin" : {
+      "type" : "fire"
+    },
+    "first-impression" : {
+      "type" : "bug"
+    },
+    "fissure" : {
+      "type" : "ground"
+    },
+    "flail" : {
+      "type" : "normal"
+    },
+    "flame-burst" : {
+      "type" : "fire"
+    },
+    "flame-charge" : {
+      "type" : "fire"
+    },
+    "flame-wheel" : {
+      "type" : "fire"
+    },
+    "flamethrower" : {
+      "type" : "fire"
+    },
+    "flare-blitz" : {
+      "type" : "fire"
+    },
+    "flash" : {
+      "type" : "normal"
+    },
+    "flash-cannon" : {
+      "type" : "steel"
+    },
+    "flatter" : {
+      "type" : "dark"
+    },
+    "fleur-cannon" : {
+      "type" : "fairy"
+    },
+    "fling" : {
+      "type" : "dark"
+    },
+    "floral-healing" : {
+      "type" : "fairy"
+    },
+    "flower-shield" : {
+      "type" : "fairy"
+    },
+    "fly" : {
+      "type" : "flying"
+    },
+    "flying-press" : {
+      "type" : "fighting"
+    },
+    "focus-blast" : {
+      "type" : "fighting"
+    },
+    "focus-energy" : {
+      "type" : "normal"
+    },
+    "focus-punch" : {
+      "type" : "fighting"
+    },
+    "follow-me" : {
+      "type" : "normal"
+    },
+    "force-palm" : {
+      "type" : "fighting"
+    },
+    "foresight" : {
+      "type" : "normal"
+    },
+    "forest's-curse" : {
+      "type" : "grass"
+    },
+    "foul-play" : {
+      "type" : "dark"
+    },
+    "freeze-dry" : {
+      "type" : "ice"
+    },
+    "freeze-shock" : {
+      "type" : "ice"
+    },
+    "frenzy-plant" : {
+      "type" : "grass"
+    },
+    "frost-breath" : {
+      "type" : "ice"
+    },
+    "frustration" : {
+      "type" : "normal"
+    },
+    "fury-attack" : {
+      "type" : "normal"
+    },
+    "fury-cutter" : {
+      "type" : "bug"
+    },
+    "fury-swipes" : {
+      "type" : "normal"
+    },
+    "fusion-bolt" : {
+      "type" : "electric"
+    },
+    "fusion-flare" : {
+      "type" : "fire"
+    },
+    "future-sight" : {
+      "type" : "psychic"
+    },
+    "gastro-acid" : {
+      "type" : "poison"
+    },
+    "gear-grind" : {
+      "type" : "steel"
+    },
+    "gear-up" : {
+      "type" : "steel"
+    },
+    "genesis-supernova" : {
+      "type" : "psychic"
+    },
+    "geomancy" : {
+      "type" : "fairy"
+    },
+    "giga-drain" : {
+      "type" : "grass"
+    },
+    "giga-impact" : {
+      "type" : "normal"
+    },
+    "gigavolt-havoc" : {
+      "type" : "electric"
+    },
+    "glaciate" : {
+      "type" : "ice"
+    },
+    "glare" : {
+      "type" : "normal"
+    },
+    "grass-knot" : {
+      "type" : "grass"
+    },
+    "grass-pledge" : {
+      "type" : "grass"
+    },
+    "grass-whistle" : {
+      "type" : "grass"
+    },
+    "grassy-terrain" : {
+      "type" : "grass"
+    },
+    "gravity" : {
+      "type" : "psychic"
+    },
+    "growl" : {
+      "type" : "normal"
+    },
+    "growth" : {
+      "type" : "normal"
+    },
+    "grudge" : {
+      "type" : "ghost"
+    },
+    "guard-split" : {
+      "type" : "psychic"
+    },
+    "guard-swap" : {
+      "type" : "psychic"
+    },
+    "guardian-of-alola" : {
+      "type" : "fairy"
+    },
+    "guillotine" : {
+      "type" : "normal"
+    },
+    "gunk-shot" : {
+      "type" : "poison"
+    },
+    "gust" : {
+      "type" : "flying"
+    },
+    "gyro-ball" : {
+      "type" : "steel"
+    },
+    "hail" : {
+      "type" : "ice"
+    },
+    "hammer-arm" : {
+      "type" : "fighting"
+    },
+    "happy-hour" : {
+      "type" : "normal"
+    },
+    "harden" : {
+      "type" : "normal"
+    },
+    "haze" : {
+      "type" : "ice"
+    },
+    "head-charge" : {
+      "type" : "normal"
+    },
+    "head-smash" : {
+      "type" : "rock"
+    },
+    "headbutt" : {
+      "type" : "normal"
+    },
+    "heal-bell" : {
+      "type" : "normal"
+    },
+    "heal-block" : {
+      "type" : "psychic"
+    },
+    "heal-order" : {
+      "type" : "bug"
+    },
+    "heal-pulse" : {
+      "type" : "psychic"
+    },
+    "healing-wish" : {
+      "type" : "psychic"
+    },
+    "heart-stamp" : {
+      "type" : "psychic"
+    },
+    "heart-swap" : {
+      "type" : "psychic"
+    },
+    "heat-crash" : {
+      "type" : "fire"
+    },
+    "heat-wave" : {
+      "type" : "fire"
+    },
+    "heavy-slam" : {
+      "type" : "steel"
+    },
+    "helping-hand" : {
+      "type" : "normal"
+    },
+    "hex" : {
+      "type" : "ghost"
+    },
+    "hidden-power" : {
+      "type" : "normal"
+    },
+    "high-horsepower" : {
+      "type" : "ground"
+    },
+    "high-jump-kick" : {
+      "type" : "fighting"
+    },
+    "hold-back" : {
+      "type" : "normal"
+    },
+    "hold-hands" : {
+      "type" : "normal"
+    },
+    "hone-claws" : {
+      "type" : "dark"
+    },
+    "horn-attack" : {
+      "type" : "normal"
+    },
+    "horn-drill" : {
+      "type" : "normal"
+    },
+    "horn-leech" : {
+      "type" : "grass"
+    },
+    "howl" : {
+      "type" : "normal"
+    },
+    "hurricane" : {
+      "type" : "flying"
+    },
+    "hydro-cannon" : {
+      "type" : "water"
+    },
+    "hydro-pump" : {
+      "type" : "water"
+    },
+    "hydro-vortex" : {
+      "type" : "water"
+    },
+    "hyper-beam" : {
+      "type" : "normal"
+    },
+    "hyper-fang" : {
+      "type" : "normal"
+    },
+    "hyper-voice" : {
+      "type" : "normal"
+    },
+    "hyperspace-fury" : {
+      "type" : "dark"
+    },
+    "hyperspace-hole" : {
+      "type" : "psychic"
+    },
+    "hypnosis" : {
+      "type" : "psychic"
+    },
+    "ice-ball" : {
+      "type" : "ice"
+    },
+    "ice-beam" : {
+      "type" : "ice"
+    },
+    "ice-burn" : {
+      "type" : "ice"
+    },
+    "ice-fang" : {
+      "type" : "ice"
+    },
+    "ice-hammer" : {
+      "type" : "ice"
+    },
+    "ice-punch" : {
+      "type" : "ice"
+    },
+    "ice-shard" : {
+      "type" : "ice"
+    },
+    "icicle-crash" : {
+      "type" : "ice"
+    },
+    "icicle-spear" : {
+      "type" : "ice"
+    },
+    "icy-wind" : {
+      "type" : "ice"
+    },
+    "imprison" : {
+      "type" : "psychic"
+    },
+    "incinerate" : {
+      "type" : "fire"
+    },
+    "inferno" : {
+      "type" : "fire"
+    },
+    "inferno-overdrive" : {
+      "type" : "fire"
+    },
+    "infestation" : {
+      "type" : "bug"
+    },
+    "ingrain" : {
+      "type" : "grass"
+    },
+    "instruct" : {
+      "type" : "psychic"
+    },
+    "ion-deluge" : {
+      "type" : "electric"
+    },
+    "iron-defense" : {
+      "type" : "steel"
+    },
+    "iron-head" : {
+      "type" : "steel"
+    },
+    "iron-tail" : {
+      "type" : "steel"
+    },
+    "judgment" : {
+      "type" : "normal"
+    },
+    "jump-kick" : {
+      "type" : "fighting"
+    },
+    "karate-chop" : {
+      "type" : "fighting"
+    },
+    "kinesis" : {
+      "type" : "psychic"
+    },
+    "king's-shield" : {
+      "type" : "steel"
+    },
+    "knock-off" : {
+      "type" : "dark"
+    },
+    "land's-wrath" : {
+      "type" : "ground"
+    },
+    "laser-focus" : {
+      "type" : "normal"
+    },
+    "last-resort" : {
+      "type" : "normal"
+    },
+    "lava-plume" : {
+      "type" : "fire"
+    },
+    "leaf-blade" : {
+      "type" : "grass"
+    },
+    "leaf-storm" : {
+      "type" : "grass"
+    },
+    "leaf-tornado" : {
+      "type" : "grass"
+    },
+    "leafage" : {
+      "type" : "grass"
+    },
+    "leech-life" : {
+      "type" : "bug"
+    },
+    "leech-seed" : {
+      "type" : "grass"
+    },
+    "leer" : {
+      "type" : "normal"
+    },
+    "let's-snuggle-forever" : {
+      "type" : "fairy"
+    },
+    "lick" : {
+      "type" : "ghost"
+    },
+    "light-of-ruin" : {
+      "type" : "fairy"
+    },
+    "light-screen" : {
+      "type" : "psychic"
+    },
+    "light-that-burns-the-sky" : {
+      "type" : "psychic"
+    },
+    "liquidation" : {
+      "type" : "water"
+    },
+    "lock-on" : {
+      "type" : "normal"
+    },
+    "lovely-kiss" : {
+      "type" : "normal"
+    },
+    "low-kick" : {
+      "type" : "fighting"
+    },
+    "low-sweep" : {
+      "type" : "fighting"
+    },
+    "lucky-chant" : {
+      "type" : "normal"
+    },
+    "lunar-dance" : {
+      "type" : "psychic"
+    },
+    "lunge" : {
+      "type" : "bug"
+    },
+    "luster-purge" : {
+      "type" : "psychic"
+    },
+    "mach-punch" : {
+      "type" : "fighting"
+    },
+    "magic-coat" : {
+      "type" : "psychic"
+    },
+    "magic-room" : {
+      "type" : "psychic"
+    },
+    "magical-leaf" : {
+      "type" : "grass"
+    },
+    "magma-storm" : {
+      "type" : "fire"
+    },
+    "magnet-bomb" : {
+      "type" : "steel"
+    },
+    "magnet-rise" : {
+      "type" : "electric"
+    },
+    "magnetic-flux" : {
+      "type" : "electric"
+    },
+    "magnitude" : {
+      "type" : "ground"
+    },
+    "malicious-moonsault" : {
+      "type" : "dark"
+    },
+    "mat-block" : {
+      "type" : "fighting"
+    },
+    "me-first" : {
+      "type" : "normal"
+    },
+    "mean-look" : {
+      "type" : "normal"
+    },
+    "meditate" : {
+      "type" : "psychic"
+    },
+    "mega-drain" : {
+      "type" : "grass"
+    },
+    "mega-kick" : {
+      "type" : "normal"
+    },
+    "mega-punch" : {
+      "type" : "normal"
+    },
+    "megahorn" : {
+      "type" : "bug"
+    },
+    "memento" : {
+      "type" : "dark"
+    },
+    "menacing-moonraze-maelstrom" : {
+      "type" : "ghost"
+    },
+    "metal-burst" : {
+      "type" : "steel"
+    },
+    "metal-claw" : {
+      "type" : "steel"
+    },
+    "metal-sound" : {
+      "type" : "steel"
+    },
+    "meteor-mash" : {
+      "type" : "steel"
+    },
+    "metronome" : {
+      "type" : "normal"
+    },
+    "milk-drink" : {
+      "type" : "normal"
+    },
+    "mimic" : {
+      "type" : "normal"
+    },
+    "mind-blown" : {
+      "type" : "fire"
+    },
+    "mind-reader" : {
+      "type" : "normal"
+    },
+    "minimize" : {
+      "type" : "normal"
+    },
+    "miracle-eye" : {
+      "type" : "psychic"
+    },
+    "mirror-coat" : {
+      "type" : "psychic"
+    },
+    "mirror-move" : {
+      "type" : "flying"
+    },
+    "mirror-shot" : {
+      "type" : "steel"
+    },
+    "mist" : {
+      "type" : "ice"
+    },
+    "mist-ball" : {
+      "type" : "psychic"
+    },
+    "misty-terrain" : {
+      "type" : "fairy"
+    },
+    "moonblast" : {
+      "type" : "fairy"
+    },
+    "moongeist-beam" : {
+      "type" : "ghost"
+    },
+    "moonlight" : {
+      "type" : "fairy"
+    },
+    "morning-sun" : {
+      "type" : "normal"
+    },
+    "mud-bomb" : {
+      "type" : "ground"
+    },
+    "mud-shot" : {
+      "type" : "ground"
+    },
+    "mud-slap" : {
+      "type" : "ground"
+    },
+    "mud-sport" : {
+      "type" : "ground"
+    },
+    "muddy-water" : {
+      "type" : "water"
+    },
+    "multi-attack" : {
+      "type" : "normal"
+    },
+    "mystical-fire" : {
+      "type" : "fire"
+    },
+    "nasty-plot" : {
+      "type" : "dark"
+    },
+    "natural-gift" : {
+      "type" : "normal"
+    },
+    "nature's-madness" : {
+      "type" : "fairy"
+    },
+    "nature-power" : {
+      "type" : "normal"
+    },
+    "needle-arm" : {
+      "type" : "grass"
+    },
+    "never-ending-nightmare" : {
+      "type" : "ghost"
+    },
+    "night-daze" : {
+      "type" : "dark"
+    },
+    "night-shade" : {
+      "type" : "ghost"
+    },
+    "night-slash" : {
+      "type" : "dark"
+    },
+    "nightmare" : {
+      "type" : "ghost"
+    },
+    "noble-roar" : {
+      "type" : "normal"
+    },
+    "nuzzle" : {
+      "type" : "electric"
+    },
+    "oblivion-wing" : {
+      "type" : "flying"
+    },
+    "oceanic-operetta" : {
+      "type" : "water"
+    },
+    "octazooka" : {
+      "type" : "water"
+    },
+    "odor-sleuth" : {
+      "type" : "normal"
+    },
+    "ominous-wind" : {
+      "type" : "ghost"
+    },
+    "origin-pulse" : {
+      "type" : "water"
+    },
+    "outrage" : {
+      "type" : "dragon"
+    },
+    "overheat" : {
+      "type" : "fire"
+    },
+    "pain-split" : {
+      "type" : "normal"
+    },
+    "parabolic-charge" : {
+      "type" : "electric"
+    },
+    "parting-shot" : {
+      "type" : "dark"
+    },
+    "pay-day" : {
+      "type" : "normal"
+    },
+    "payback" : {
+      "type" : "dark"
+    },
+    "peck" : {
+      "type" : "flying"
+    },
+    "perish-song" : {
+      "type" : "normal"
+    },
+    "petal-blizzard" : {
+      "type" : "grass"
+    },
+    "petal-dance" : {
+      "type" : "grass"
+    },
+    "phantom-force" : {
+      "type" : "ghost"
+    },
+    "photon-geyser" : {
+      "type" : "psychic"
+    },
+    "pin-missile" : {
+      "type" : "bug"
+    },
+    "plasma-fists" : {
+      "type" : "electric"
+    },
+    "play-nice" : {
+      "type" : "normal"
+    },
+    "play-rough" : {
+      "type" : "fairy"
+    },
+    "pluck" : {
+      "type" : "flying"
+    },
+    "poison-fang" : {
+      "type" : "poison"
+    },
+    "poison-gas" : {
+      "type" : "poison"
+    },
+    "poison-jab" : {
+      "type" : "poison"
+    },
+    "poison-powder" : {
+      "type" : "poison"
+    },
+    "poison-sting" : {
+      "type" : "poison"
+    },
+    "poison-tail" : {
+      "type" : "poison"
+    },
+    "pollen-puff" : {
+      "type" : "bug"
+    },
+    "pound" : {
+      "type" : "normal"
+    },
+    "powder" : {
+      "type" : "bug"
+    },
+    "powder-snow" : {
+      "type" : "ice"
+    },
+    "power-gem" : {
+      "type" : "rock"
+    },
+    "power-split" : {
+      "type" : "psychic"
+    },
+    "power-swap" : {
+      "type" : "psychic"
+    },
+    "power-trick" : {
+      "type" : "psychic"
+    },
+    "power-trip" : {
+      "type" : "dark"
+    },
+    "power-up-punch" : {
+      "type" : "fighting"
+    },
+    "power-whip" : {
+      "type" : "grass"
+    },
+    "precipice-blades" : {
+      "type" : "ground"
+    },
+    "present" : {
+      "type" : "normal"
+    },
+    "prismatic-laser" : {
+      "type" : "psychic"
+    },
+    "protect" : {
+      "type" : "normal"
+    },
+    "psybeam" : {
+      "type" : "psychic"
+    },
+    "psych-up" : {
+      "type" : "normal"
+    },
+    "psychic" : {
+      "type" : "psychic"
+    },
+    "psychic-fangs" : {
+      "type" : "psychic"
+    },
+    "psychic-terrain" : {
+      "type" : "psychic"
+    },
+    "psycho-boost" : {
+      "type" : "psychic"
+    },
+    "psycho-cut" : {
+      "type" : "psychic"
+    },
+    "psycho-shift" : {
+      "type" : "psychic"
+    },
+    "psyshock" : {
+      "type" : "psychic"
+    },
+    "psystrike" : {
+      "type" : "psychic"
+    },
+    "psywave" : {
+      "type" : "psychic"
+    },
+    "pulverizing-pancake" : {
+      "type" : "normal"
+    },
+    "punishment" : {
+      "type" : "dark"
+    },
+    "purify" : {
+      "type" : "poison"
+    },
+    "pursuit" : {
+      "type" : "dark"
+    },
+    "quash" : {
+      "type" : "dark"
+    },
+    "quick-attack" : {
+      "type" : "normal"
+    },
+    "quick-guard" : {
+      "type" : "fighting"
+    },
+    "quiver-dance" : {
+      "type" : "bug"
+    },
+    "rage" : {
+      "type" : "normal"
+    },
+    "rage-powder" : {
+      "type" : "bug"
+    },
+    "rain-dance" : {
+      "type" : "water"
+    },
+    "rapid-spin" : {
+      "type" : "normal"
+    },
+    "razor-leaf" : {
+      "type" : "grass"
+    },
+    "razor-shell" : {
+      "type" : "water"
+    },
+    "razor-wind" : {
+      "type" : "normal"
+    },
+    "recover" : {
+      "type" : "normal"
+    },
+    "recycle" : {
+      "type" : "normal"
+    },
+    "reflect" : {
+      "type" : "psychic"
+    },
+    "reflect-type" : {
+      "type" : "normal"
+    },
+    "refresh" : {
+      "type" : "normal"
+    },
+    "relic-song" : {
+      "type" : "normal"
+    },
+    "rest" : {
+      "type" : "psychic"
+    },
+    "retaliate" : {
+      "type" : "normal"
+    },
+    "return" : {
+      "type" : "normal"
+    },
+    "revelation-dance" : {
+      "type" : "normal"
+    },
+    "revenge" : {
+      "type" : "fighting"
+    },
+    "reversal" : {
+      "type" : "fighting"
+    },
+    "roar" : {
+      "type" : "normal"
+    },
+    "roar-of-time" : {
+      "type" : "dragon"
+    },
+    "rock-blast" : {
+      "type" : "rock"
+    },
+    "rock-climb" : {
+      "type" : "normal"
+    },
+    "rock-polish" : {
+      "type" : "rock"
+    },
+    "rock-slide" : {
+      "type" : "rock"
+    },
+    "rock-smash" : {
+      "type" : "fighting"
+    },
+    "rock-throw" : {
+      "type" : "rock"
+    },
+    "rock-tomb" : {
+      "type" : "rock"
+    },
+    "rock-wrecker" : {
+      "type" : "rock"
+    },
+    "role-play" : {
+      "type" : "psychic"
+    },
+    "rolling-kick" : {
+      "type" : "fighting"
+    },
+    "rollout" : {
+      "type" : "rock"
+    },
+    "roost" : {
+      "type" : "flying"
+    },
+    "rototiller" : {
+      "type" : "ground"
+    },
+    "round" : {
+      "type" : "normal"
+    },
+    "sacred-fire" : {
+      "type" : "fire"
+    },
+    "sacred-sword" : {
+      "type" : "fighting"
+    },
+    "safeguard" : {
+      "type" : "normal"
+    },
+    "sand-attack" : {
+      "type" : "ground"
+    },
+    "sand-tomb" : {
+      "type" : "ground"
+    },
+    "sandstorm" : {
+      "type" : "rock"
+    },
+    "savage-spin-out" : {
+      "type" : "bug"
+    },
+    "scald" : {
+      "type" : "water"
+    },
+    "scary-face" : {
+      "type" : "normal"
+    },
+    "scratch" : {
+      "type" : "normal"
+    },
+    "screech" : {
+      "type" : "normal"
+    },
+    "searing-shot" : {
+      "type" : "fire"
+    },
+    "searing-sunraze-smash" : {
+      "type" : "steel"
+    },
+    "secret-power" : {
+      "type" : "normal"
+    },
+    "secret-sword" : {
+      "type" : "fighting"
+    },
+    "seed-bomb" : {
+      "type" : "grass"
+    },
+    "seed-flare" : {
+      "type" : "grass"
+    },
+    "seismic-toss" : {
+      "type" : "fighting"
+    },
+    "self-destruct" : {
+      "type" : "normal"
+    },
+    "shadow-ball" : {
+      "type" : "ghost"
+    },
+    "shadow-bone" : {
+      "type" : "ghost"
+    },
+    "shadow-claw" : {
+      "type" : "ghost"
+    },
+    "shadow-force" : {
+      "type" : "ghost"
+    },
+    "shadow-punch" : {
+      "type" : "ghost"
+    },
+    "shadow-sneak" : {
+      "type" : "ghost"
+    },
+    "sharpen" : {
+      "type" : "normal"
+    },
+    "shattered-psyche" : {
+      "type" : "psychic"
+    },
+    "sheer-cold" : {
+      "type" : "ice"
+    },
+    "shell-smash" : {
+      "type" : "normal"
+    },
+    "shell-trap" : {
+      "type" : "fire"
+    },
+    "shift-gear" : {
+      "type" : "steel"
+    },
+    "shock-wave" : {
+      "type" : "electric"
+    },
+    "shore-up" : {
+      "type" : "ground"
+    },
+    "signal-beam" : {
+      "type" : "bug"
+    },
+    "silver-wind" : {
+      "type" : "bug"
+    },
+    "simple-beam" : {
+      "type" : "normal"
+    },
+    "sing" : {
+      "type" : "normal"
+    },
+    "sinister-arrow-raid" : {
+      "type" : "ghost"
+    },
+    "sketch" : {
+      "type" : "normal"
+    },
+    "skill-swap" : {
+      "type" : "psychic"
+    },
+    "skull-bash" : {
+      "type" : "normal"
+    },
+    "sky-attack" : {
+      "type" : "flying"
+    },
+    "sky-drop" : {
+      "type" : "flying"
+    },
+    "sky-uppercut" : {
+      "type" : "fighting"
+    },
+    "slack-off" : {
+      "type" : "normal"
+    },
+    "slam" : {
+      "type" : "normal"
+    },
+    "slash" : {
+      "type" : "normal"
+    },
+    "sleep-powder" : {
+      "type" : "grass"
+    },
+    "sleep-talk" : {
+      "type" : "normal"
+    },
+    "sludge" : {
+      "type" : "poison"
+    },
+    "sludge-bomb" : {
+      "type" : "poison"
+    },
+    "sludge-wave" : {
+      "type" : "poison"
+    },
+    "smack-down" : {
+      "type" : "rock"
+    },
+    "smart-strike" : {
+      "type" : "steel"
+    },
+    "smelling-salts" : {
+      "type" : "normal"
+    },
+    "smog" : {
+      "type" : "poison"
+    },
+    "smokescreen" : {
+      "type" : "normal"
+    },
+    "snarl" : {
+      "type" : "dark"
+    },
+    "snatch" : {
+      "type" : "dark"
+    },
+    "snore" : {
+      "type" : "normal"
+    },
+    "soak" : {
+      "type" : "water"
+    },
+    "soft-boiled" : {
+      "type" : "normal"
+    },
+    "solar-beam" : {
+      "type" : "grass"
+    },
+    "solar-blade" : {
+      "type" : "grass"
+    },
+    "sonic-boom" : {
+      "type" : "normal"
+    },
+    "soul-stealing-7-star-strike" : {
+      "type" : "ghost"
+    },
+    "spacial-rend" : {
+      "type" : "dragon"
+    },
+    "spark" : {
+      "type" : "electric"
+    },
+    "sparkling-aria" : {
+      "type" : "water"
+    },
+    "spectral-thief" : {
+      "type" : "ghost"
+    },
+    "speed-swap" : {
+      "type" : "psychic"
+    },
+    "spider-web" : {
+      "type" : "bug"
+    },
+    "spike-cannon" : {
+      "type" : "normal"
+    },
+    "spikes" : {
+      "type" : "ground"
+    },
+    "spiky-shield" : {
+      "type" : "grass"
+    },
+    "spirit-shackle" : {
+      "type" : "ghost"
+    },
+    "spit-up" : {
+      "type" : "normal"
+    },
+    "spite" : {
+      "type" : "ghost"
+    },
+    "splash" : {
+      "type" : "normal"
+    },
+    "splintered-stormshards" : {
+      "type" : "rock"
+    },
+    "spore" : {
+      "type" : "grass"
+    },
+    "spotlight" : {
+      "type" : "normal"
+    },
+    "stealth-rock" : {
+      "type" : "rock"
+    },
+    "steam-eruption" : {
+      "type" : "water"
+    },
+    "steamroller" : {
+      "type" : "bug"
+    },
+    "steel-wing" : {
+      "type" : "steel"
+    },
+    "sticky-web" : {
+      "type" : "bug"
+    },
+    "stockpile" : {
+      "type" : "normal"
+    },
+    "stoked-sparksurfer" : {
+      "type" : "electric"
+    },
+    "stomp" : {
+      "type" : "normal"
+    },
+    "stomping-tantrum" : {
+      "type" : "ground"
+    },
+    "stone-edge" : {
+      "type" : "rock"
+    },
+    "stored-power" : {
+      "type" : "psychic"
+    },
+    "storm-throw" : {
+      "type" : "fighting"
+    },
+    "strength" : {
+      "type" : "normal"
+    },
+    "strength-sap" : {
+      "type" : "grass"
+    },
+    "string-shot" : {
+      "type" : "bug"
+    },
+    "struggle" : {
+      "type" : "normal"
+    },
+    "struggle-bug" : {
+      "type" : "bug"
+    },
+    "stun-spore" : {
+      "type" : "grass"
+    },
+    "submission" : {
+      "type" : "fighting"
+    },
+    "substitute" : {
+      "type" : "normal"
+    },
+    "subzero-slammer" : {
+      "type" : "ice"
+    },
+    "sucker-punch" : {
+      "type" : "dark"
+    },
+    "sunny-day" : {
+      "type" : "fire"
+    },
+    "sunsteel-strike" : {
+      "type" : "steel"
+    },
+    "super-fang" : {
+      "type" : "normal"
+    },
+    "superpower" : {
+      "type" : "fighting"
+    },
+    "supersonic" : {
+      "type" : "normal"
+    },
+    "supersonic-skystrike" : {
+      "type" : "flying"
+    },
+    "surf" : {
+      "type" : "water"
+    },
+    "swagger" : {
+      "type" : "normal"
+    },
+    "swallow" : {
+      "type" : "normal"
+    },
+    "sweet-kiss" : {
+      "type" : "fairy"
+    },
+    "sweet-scent" : {
+      "type" : "normal"
+    },
+    "swift" : {
+      "type" : "normal"
+    },
+    "switcheroo" : {
+      "type" : "dark"
+    },
+    "swords-dance" : {
+      "type" : "normal"
+    },
+    "synchronoise" : {
+      "type" : "psychic"
+    },
+    "synthesis" : {
+      "type" : "grass"
+    },
+    "tackle" : {
+      "type" : "normal"
+    },
+    "tail-glow" : {
+      "type" : "bug"
+    },
+    "tail-slap" : {
+      "type" : "normal"
+    },
+    "tail-whip" : {
+      "type" : "normal"
+    },
+    "tailwind" : {
+      "type" : "flying"
+    },
+    "take-down" : {
+      "type" : "normal"
+    },
+    "taunt" : {
+      "type" : "dark"
+    },
+    "tearful-look" : {
+      "type" : "normal"
+    },
+    "techno-blast" : {
+      "type" : "normal"
+    },
+    "tectonic-rage" : {
+      "type" : "ground"
+    },
+    "teeter-dance" : {
+      "type" : "normal"
+    },
+    "telekinesis" : {
+      "type" : "psychic"
+    },
+    "teleport" : {
+      "type" : "psychic"
+    },
+    "thief" : {
+      "type" : "dark"
+    },
+    "thousand-arrows" : {
+      "type" : "ground"
+    },
+    "thousand-waves" : {
+      "type" : "ground"
+    },
+    "thrash" : {
+      "type" : "normal"
+    },
+    "throat-chop" : {
+      "type" : "dark"
+    },
+    "thunder" : {
+      "type" : "electric"
+    },
+    "thunder-fang" : {
+      "type" : "electric"
+    },
+    "thunder-punch" : {
+      "type" : "electric"
+    },
+    "thunder-shock" : {
+      "type" : "electric"
+    },
+    "thunder-wave" : {
+      "type" : "electric"
+    },
+    "thunderbolt" : {
+      "type" : "electric"
+    },
+    "tickle" : {
+      "type" : "normal"
+    },
+    "topsy-turvy" : {
+      "type" : "dark"
+    },
+    "torment" : {
+      "type" : "dark"
+    },
+    "toxic" : {
+      "type" : "poison"
+    },
+    "toxic-spikes" : {
+      "type" : "poison"
+    },
+    "toxic-thread" : {
+      "type" : "poison"
+    },
+    "transform" : {
+      "type" : "normal"
+    },
+    "tri-attack" : {
+      "type" : "normal"
+    },
+    "trick" : {
+      "type" : "psychic"
+    },
+    "trick-or-treat" : {
+      "type" : "ghost"
+    },
+    "trick-room" : {
+      "type" : "psychic"
+    },
+    "triple-kick" : {
+      "type" : "fighting"
+    },
+    "trop-kick" : {
+      "type" : "grass"
+    },
+    "trump-card" : {
+      "type" : "normal"
+    },
+    "twineedle" : {
+      "type" : "bug"
+    },
+    "twinkle-tackle" : {
+      "type" : "fairy"
+    },
+    "twister" : {
+      "type" : "dragon"
+    },
+    "u-turn" : {
+      "type" : "bug"
+    },
+    "uproar" : {
+      "type" : "normal"
+    },
+    "v-create" : {
+      "type" : "fire"
+    },
+    "vacuum-wave" : {
+      "type" : "fighting"
+    },
+    "venom-drench" : {
+      "type" : "poison"
+    },
+    "venoshock" : {
+      "type" : "poison"
+    },
+    "vice-grip" : {
+      "type" : "normal"
+    },
+    "vine-whip" : {
+      "type" : "grass"
+    },
+    "vital-throw" : {
+      "type" : "fighting"
+    },
+    "volt-switch" : {
+      "type" : "electric"
+    },
+    "volt-tackle" : {
+      "type" : "electric"
+    },
+    "wake-up-slap" : {
+      "type" : "fighting"
+    },
+    "water-gun" : {
+      "type" : "water"
+    },
+    "water-pledge" : {
+      "type" : "water"
+    },
+    "water-pulse" : {
+      "type" : "water"
+    },
+    "water-shuriken" : {
+      "type" : "water"
+    },
+    "water-sport" : {
+      "type" : "water"
+    },
+    "water-spout" : {
+      "type" : "water"
+    },
+    "waterfall" : {
+      "type" : "water"
+    },
+    "weather-ball" : {
+      "type" : "normal"
+    },
+    "whirlpool" : {
+      "type" : "water"
+    },
+    "whirlwind" : {
+      "type" : "normal"
+    },
+    "wide-guard" : {
+      "type" : "rock"
+    },
+    "wild-charge" : {
+      "type" : "electric"
+    },
+    "will-o-wisp" : {
+      "type" : "fire"
+    },
+    "wing-attack" : {
+      "type" : "flying"
+    },
+    "wish" : {
+      "type" : "normal"
+    },
+    "withdraw" : {
+      "type" : "water"
+    },
+    "wonder-room" : {
+      "type" : "psychic"
+    },
+    "wood-hammer" : {
+      "type" : "grass"
+    },
+    "work-up" : {
+      "type" : "normal"
+    },
+    "worry-seed" : {
+      "type" : "grass"
+    },
+    "wrap" : {
+      "type" : "normal"
+    },
+    "wring-out" : {
+      "type" : "normal"
+    },
+    "x-scissor" : {
+      "type" : "bug"
+    },
+    "yawn" : {
+      "type" : "normal"
+    },
+    "zap-cannon" : {
+      "type" : "electric"
+    },
+    "zen-headbutt" : {
+      "type" : "psychic"
+    },
+    "zing-zap" : {
+      "type" : "electric"
+    }
+  }
+  
