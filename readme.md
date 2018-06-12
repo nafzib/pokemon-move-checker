@@ -32,27 +32,23 @@ TO DO
 
 Possible Dependencies
 ---------------------------------------------------
-pokeapi-js-wrapper - Not currently used
-pokedex-promise-v2 - Not currently used
-
-
-DONE
------------------
-* Color the background of the cell for moves based on move type
+* pokeapi-js-wrapper - Not currently used
+* pokedex-promise-v2 - Not currently used
 
 
 Other Resources:
 -----------------
-https://daveceddia.com/access-control-allow-origin-cors-errors-in-angular/
-https://www.sitepoint.com/api-calls-angularjs-http-service/
-Awesome Original Gameboy Pokemon Font: http://www.fontspace.com/jackster-productions/pokemon-gb
-Amazing JSON Transformation Tool: https://jolt-demo.appspot.com/
+* https://daveceddia.com/access-control-allow-origin-cors-errors-in-angular/
+* https://www.sitepoint.com/api-calls-angularjs-http-service/
+* Awesome Original Gameboy Pokemon Font: http://www.fontspace.com/jackster-productions/pokemon-gb
+* Amazing JSON Transformation Tool: https://jolt-demo.appspot.com/
 
 
 
 The following is the Jolt JSON Transform code to get my moves.json fixed. I pulled the moves by simply copy/pasting the table from Bulbapedia with all moves in it to excel, then using an excel to json converter.
 This code malforms the JSON to a technically bad data structure { "MoveName": { "type" : "MoveType" }}, but it makes my front end finding of move type more efficient in the browser than having to search through the PokeAPI data structure or even from the below data structure converted from the table on Bulbapedia:
-Run at: https://jolt-demo.appspot.com/
+
+Following code was at: https://jolt-demo.appspot.com/
 -------------------------------------------
 [
   {
@@ -64,8 +60,10 @@ Run at: https://jolt-demo.appspot.com/
     }
   }
   ]
+
+
+The above changes the JSON structure from:
 -------------------------------------------
-  The above changes the JSON structure from:
   [
       {
 		"#": "611",
@@ -91,8 +89,9 @@ Run at: https://jolt-demo.appspot.com/
 	}
   ]
 
-  To:
 
+  To:
+-------------------
   [
       "Infestation": {
           "type": "Bug"
@@ -103,6 +102,6 @@ Run at: https://jolt-demo.appspot.com/
   ]
 
 The above still resulted in a handful of moves having:
-    "type": ["Fighting", "Fighting"]
+* "type": ["Fighting", "Fighting"]
 Not sure why, but I ran it through Jolt again with a "@=firstElement()" filter to keep only the first Type (since they were all repeats)
 Then I ran the text through https://textmechanic.com/ to make it all lower case, and used the regex "/\b\s/" to change all white space at a word boundary to a hyphen to match up with the move names that come from PokeAPI.
